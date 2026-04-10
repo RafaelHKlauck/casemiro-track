@@ -1,0 +1,24 @@
+# Datasets
+dataset/
+min1/
+min2/
+min3/
+
+# Pesos / modelos
+models/
+runs/
+*.pt
+
+# Videos
+*.mp4
+*.avi
+*.mkv
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# macOS
+.DS_Store
