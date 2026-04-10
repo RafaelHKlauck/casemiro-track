@@ -19,6 +19,7 @@ venv/
 __pycache__/
 *.pyc
 .env
+yolo-env
 
 # macOS
 .DS_Store
