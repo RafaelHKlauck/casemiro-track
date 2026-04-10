@@ -23,21 +23,21 @@ os.makedirs(images_val_dir)
 os.makedirs(labels_val_dir)
 
 # -----------------------------
-# pega min1, min2, min3 ordenado
+# pega parte_000, parte_001, ... ordenado
 # -----------------------------
-min_folders = sorted([
+parte_folders = sorted([
     f for f in os.listdir(RAW_DATA_DIR)
-    if f.startswith("min") and os.path.isdir(os.path.join(RAW_DATA_DIR, f))
+    if f.startswith("parte_") and os.path.isdir(os.path.join(RAW_DATA_DIR, f))
 ])
 
-print("Min folders:", min_folders)
+print("Parte folders:", parte_folders)
 
 # -----------------------------
 # coleta tudo em ordem
 # -----------------------------
 all_items = []
 
-for folder in min_folders:
+for folder in parte_folders:
     source_dir = os.path.join(RAW_DATA_DIR, folder, "obj_train_data")
 
     if not os.path.exists(source_dir):
