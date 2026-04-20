@@ -1,9 +1,6 @@
 # Datasets
 dataset/
 /parte_*/
-min1/
-min2/
-min3/
 
 # Pesos / modelos
 models/
