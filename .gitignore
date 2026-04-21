@@ -1,6 +1,12 @@
 # Datasets
 dataset/
+old_dataset/
+old_dataset.zip
 /parte_*/
+min1/
+min2/
+min3/
+videos_teste/
 
 # Pesos / modelos
 models/
